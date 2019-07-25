@@ -1,0 +1,12 @@
+iframe {
+  box-sizing: border-box;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: CALC(100vh - 117px);
+}
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+}

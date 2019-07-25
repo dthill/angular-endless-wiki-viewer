@@ -1,0 +1,9 @@
+<div>
+  <a routerLink="/article/{{article.title}}">
+    <ng-template [ngIf]="article.image">
+      <img src="{{ article.image }}" alt="article thumbnail" />
+    </ng-template>
+    <h1>{{ article.title }}</h1>
+    <p>{{ article.extract }}</p>
+  </a>
+</div>
